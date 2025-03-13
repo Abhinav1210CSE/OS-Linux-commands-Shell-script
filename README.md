@@ -61,9 +61,13 @@ cmp file1 file2
 comm file1 file2
  ## OUTPUT
 
+ ![image](https://github.com/user-attachments/assets/e9b54d65-615c-4f27-a88d-f1b019cf3029)
+
+
  
 diff file1 file2
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/29c465dc-f8e7-4043-9458-32cb01bb8995)
 
 
 #Filters
@@ -88,16 +92,22 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/ffed48f2-9047-4f5a-b45a-cfec8fe582b7)
+
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/7e7121e7-3d5c-4b53-b073-74177c5c7f96)
+
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+
+![image](https://github.com/user-attachments/assets/fae6c9ee-f721-4ccb-8b67-1755aa860c5d)
 
 
 cat < newfile 
