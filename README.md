@@ -388,6 +388,7 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/627490ec-9ac3-43f8-a675-59b1d4a79b55)
 
 
 #Using tr command
@@ -412,19 +413,19 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-
-![image](https://github.com/user-attachments/assets/537c8181-1874-4314-be28-e85ab1b20a0c)
+![image](https://github.com/user-attachments/assets/5fc933b7-619f-45ca-ab53-9dfb2a0285ac)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-![image](https://github.com/user-attachments/assets/2227bd07-eb8d-44a4-a18b-a8884078753e)
+![image](https://github.com/user-attachments/assets/49a8f92e-5a95-4856-9c39-453a742f3bba)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/90d908e4-69d8-45e5-994c-87379ca6680e)
 
 
 mkdir backupdir
@@ -433,10 +434,12 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/2fbf56fe-ce7d-41c8-b9a3-0046e2fd5228)
 
 
 tar -xvf backup.tar
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/da18ccc5-1f49-4490-a030-b97960adc15b)
 
 gzip backup.tar
 
@@ -467,6 +470,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/2c5aca6a-89c4-4b39-a816-1ea562cd35f0)
 
 
 cat < scriptest.sh 
@@ -505,6 +509,7 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/d94de294-e884-4e6c-86b2-e05a56442746)
 
  
 ls file1
@@ -512,16 +517,22 @@ ls file1
 
 echo $?
 ## OUTPUT 
+
+![image](https://github.com/user-attachments/assets/41f7d0fe-ad4d-4b90-8c85-d61a4dca4187)
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ ![image](https://github.com/user-attachments/assets/28cff60d-8d8a-406c-bff9-2a06213d5e31)
+
 abcd
  
 echo $?
  ## OUTPUT
+
+![image](https://github.com/user-attachments/assets/4cf9ef9a-d174-4a54-9ce1-f2410b77f15b)
 
 
  
@@ -554,6 +565,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+![image](https://github.com/user-attachments/assets/f6601a4b-3d54-4b42-a9e1-d6644e2f4128)
 
 
 
@@ -561,6 +573,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/5605be5f-0622-4e3c-909f-7df6e04b1f9d)
 
 
 # check file ownership
@@ -588,6 +601,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/1cd95e6c-5957-464a-abe8-f1125917df9c)
+
 
 # check if with file location
 cat>ifnested.sh 
